@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - hammer
+  - Hilt
   layers:
   - Default
   - TransparentFX

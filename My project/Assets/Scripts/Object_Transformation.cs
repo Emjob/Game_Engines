@@ -89,6 +89,7 @@ public class Object_Transformation : MonoBehaviour
             Heating = true;
             t = 0;
         }
+        
     }
     private void OnTriggerExit(Collider other)
     {
@@ -144,7 +145,7 @@ public class Object_Transformation : MonoBehaviour
         }
         if (collision.transform.name == "Hilt" && Heated)
         {
-            collision.transform.parent = transform.parent;
+            transform.parent = collision.transform.parent;
         }
         
     }
